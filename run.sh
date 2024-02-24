@@ -9,3 +9,6 @@ echo "Start."
 paste -d'\t' "$lang1_file" "$lang2_file" | awk -F'\t' '{print $1 "\n" $2}' > "$output_file"
 
 echo "Finished."
+
+cat "$output_file" | pbcopy
+echo "Your Mac Clipboard Copied"

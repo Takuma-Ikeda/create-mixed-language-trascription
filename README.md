@@ -1,7 +1,10 @@
 # create-mixed-language-trascription
 
 `lang1.txt` を翻訳した `lang2.txt` があるとする (行数は一致していること)
-`lang1.txt` の各行の下に、対応する `lang2.txt` の各行が挿入された `output.txt` を作成する
+
+`lang1.txt` の各行の下に、対応する `lang2.txt` の各行が挿入して、その結果を `output.txt` を作成する
+
+Mac のクリップボードに結果をコピーする
 
 ## サンプル
 
